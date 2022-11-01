@@ -1,5 +1,5 @@
-.nav-bar {
-    display: grid;
+navbar-section {
+    grid-area: navbar;
 }
 
 .nav-bar ul {
@@ -8,4 +8,12 @@
     font-size: 0.8em;
     margin-left: 16px;
     margin-top: 20px;
+}
+
+.nav-bar li {
+    margin-bottom: 10px;
+}
+
+.underline {
+    text-decoration: underline;
 }

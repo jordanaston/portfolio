@@ -20,4 +20,12 @@ body {
     position: relative;
 }
 
+.name-section {
+    @include primary-font-style;
+}
+
+p {
+    @include primary-font-style;
+}
+
 

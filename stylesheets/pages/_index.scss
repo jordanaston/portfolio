@@ -1,13 +1,18 @@
 body {
+    display: grid;
+    grid-template-columns: 30% auto ;
+    grid-template-rows: 10% auto 35% ;
+    grid-template-areas: 
+        "header header"
+        "navbar globe-sect"
+        "navbar landing-para";
     background-image: url("/images/portfolio background mobile.png");
     border: 1px solid $primary-color;
     padding: 10px;
     margin: 20px;
 }
 
-p {
-    @include primary-font-style;
-}
+
 
 
 

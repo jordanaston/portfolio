@@ -1,9 +1,9 @@
-.top-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+header {
+    grid-area: header;
 }
 
-.top-header :nth-child(2) {
+.top-header {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
 }
+

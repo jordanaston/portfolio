@@ -1,0 +1,9 @@
+.top-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.top-header :nth-child(2) {
+    display: flex;
+    justify-content: right;
+}

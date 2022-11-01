@@ -1,0 +1,11 @@
+.nav-bar {
+    display: grid;
+}
+
+.nav-bar ul {
+    @include primary-font-style;
+    list-style: square;
+    font-size: 0.8em;
+    margin-left: 16px;
+    margin-top: 20px;
+}

@@ -1,0 +1,13 @@
+body {
+    background-image: url("/images/portfolio background mobile.png");
+    border: 1px solid $primary-color;
+    padding: 10px;
+    margin: 20px;
+}
+
+p {
+    @include primary-font-style;
+}
+
+
+

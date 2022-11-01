@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: scroll;
+  position: relative;
+}
+
+body {
+  background-image: url("/images/portfolio background mobile.png");
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  margin: 20px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+}
+
+.top-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.top-header :nth-child(2) {
+  display: flex;
+  justify-content: right;
+}
+
+.nav-bar {
+  display: grid;
+}
+
+.nav-bar ul {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  list-style: square;
+  font-size: 0.8em;
+  margin-left: 16px;
+  margin-top: 20px;
+}/*# sourceMappingURL=main.css.map */

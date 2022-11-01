@@ -1,0 +1,12 @@
+.project-links ul {
+    @include primary-font-style;
+    list-style: none;
+    font-size: 0.8em;
+    margin-left: 16px;
+    margin-top: 110px;
+}
+
+.project-links li {
+    margin-bottom: 15px;
+    text-align: right;
+}

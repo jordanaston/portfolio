@@ -23,6 +23,15 @@ p {
   color: whitesmoke;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
+.link-decoration {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 body {
   display: grid;
   grid-template-columns: 30% auto;
@@ -34,6 +43,38 @@ body {
   margin: 20px;
 }
 
+@media screen and (min-width: 850px) {
+  body {
+    background-image: url("/images/portfolio background.jpg");
+  }
+  .top-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+  }
+  .top-header h3 {
+    font-size: 1.8em;
+  }
+  .top-header h5 {
+    font-size: 1.2em;
+  }
+  body {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: 10% auto 10%;
+    grid-template-areas: "header header" "landing-para globe-sect" "landing-para navbar";
+  }
+  .nav-bar ul {
+    font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
+    list-style: square;
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    text-align: right;
+  }
+}
 header {
   grid-area: header;
 }
@@ -60,10 +101,6 @@ navbar-section {
   margin-bottom: 10px;
 }
 
-.underline {
-  text-decoration: underline;
-}
-
 globe-section img {
   width: 150px;
   margin-top: 230px;
@@ -71,8 +108,64 @@ globe-section img {
 }
 
 .landing-text p {
-  font-size: 1em;
+  font-size: 0.9em;
   text-align: right;
   padding-left: 70px;
   margin-bottom: 10%;
+}
+
+.project-links ul {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  list-style: none;
+  font-size: 0.8em;
+  margin-left: 16px;
+  margin-top: 110px;
+}
+
+.project-links li {
+  margin-bottom: 15px;
+  text-align: right;
+}
+
+.blog-links ul {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  list-style: none;
+  font-size: 0.8em;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.blog-links li {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.history-container h5 {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.history-container p {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.network-links ul {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  list-style: none;
+  font-size: 0.8em;
+  margin-left: 16px;
+  margin-top: 20px;
+}
+
+.network-links li {
+  margin-bottom: 10px;
+  text-align: right;
 }/*# sourceMappingURL=main.css.map */

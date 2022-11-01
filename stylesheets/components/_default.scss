@@ -18,7 +18,7 @@ body {
     background-attachment: fixed;
     overflow: scroll;
     position: relative;
-}
+}    
 
 .name-section {
     @include primary-font-style;
@@ -26,6 +26,15 @@ body {
 
 p {
     @include primary-font-style;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.link-decoration {
+    text-decoration: none;
+    color: $primary-color;
 }
 
 

@@ -1,0 +1,11 @@
+.history-container h5 {
+    @include primary-font-style;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.history-container p {
+    @include primary-font-style;
+    font-size: 0.8em;
+    text-align: center;
+}

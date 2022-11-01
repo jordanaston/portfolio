@@ -1,16 +1,12 @@
-navbar-section {
-    grid-area: navbar;
-}
-
-.nav-bar ul {
+.blog-links ul {
     @include primary-font-style;
-    list-style: square;
+    list-style: none;
     font-size: 0.8em;
     margin-left: 16px;
     margin-top: 20px;
 }
 
-.nav-bar li {
+.blog-links li {
     margin-bottom: 10px;
+    text-align: right;
 }
-

@@ -12,6 +12,53 @@ body {
     margin: 20px;
 }
 
+@media screen and (min-width: 850px) {
+
+    body {
+        background-image: url("/images/portfolio background.jpg");
+    }
+    
+    .top-header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: left;
+    }
+
+    .top-header h3 {
+        font-size: 1.8em;
+    }
+    .top-header h5 {
+        font-size: 1.2em;
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: 30% auto ;
+        grid-template-rows: 10% auto 10% ;
+        grid-template-areas: 
+            "header header"
+            "landing-para globe-sect"
+            "landing-para navbar";
+    }
+
+    .nav-bar ul {
+        @include primary-font-style;
+        list-style: square;
+        font-size: 0.8em;
+        // margin-left: 16px;
+        // margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 40px;
+        text-align: right;
+    }
+
+
+
+}
+    
+
+
 
 
 

@@ -5,6 +5,7 @@
 }
 
 $primary-color: whitesmoke;
+$secondary-color: #566651;
 
 @mixin primary-font-style {
     font-family: 'Open Sans', sans-serif;
@@ -35,6 +36,10 @@ p {
 .link-decoration {
     text-decoration: none;
     color: $primary-color;
+}
+
+.blog-link-decoration {
+    color: $secondary-color;
 }
 
 

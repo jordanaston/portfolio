@@ -32,6 +32,10 @@ p {
   color: whitesmoke;
 }
 
+.blog-link-decoration {
+  color: #566651;
+}
+
 body {
   display: grid;
   grid-template-columns: 30% auto;

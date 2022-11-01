@@ -62,4 +62,17 @@ navbar-section {
 
 .underline {
   text-decoration: underline;
+}
+
+globe-section img {
+  width: 150px;
+  margin-top: 230px;
+  margin-right: 50px;
+}
+
+.landing-text p {
+  font-size: 1em;
+  text-align: right;
+  padding-left: 70px;
+  margin-bottom: 10%;
 }/*# sourceMappingURL=main.css.map */

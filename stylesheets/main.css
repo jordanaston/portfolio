@@ -204,4 +204,39 @@ blog-image img {
   color: whitesmoke;
   font-size: 0.8em;
   text-align: center;
+}
+
+button {
+  background: transparent;
+  border: solid whitesmoke 1px;
+  padding: 5px;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.form-input-box {
+  color: whitesmoke;
+}
+
+.input-section {
+  background: transparent;
+  border: solid whitesmoke 1px;
+  padding: 5px;
+  color: whitesmoke;
+  outline-color: #566651;
+}
+
+::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: whitesmoke;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: whitesmoke;
+  opacity: 1; /* Firefox */
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: whitesmoke;
+  opacity: 1; /* Firefox */
 }/*# sourceMappingURL=main.css.map */

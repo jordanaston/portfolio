@@ -1,0 +1,24 @@
+button {
+    background: transparent;
+    border: solid $primary-color 1px;
+    padding: 5px;
+    color: $primary-color;
+    cursor: pointer;
+}
+
+.form-input-box {
+    color: $primary-color;
+}
+
+.input-section {
+    background: transparent;
+    border: solid $primary-color 1px;
+    padding: 5px;
+    color: $primary-color;
+    outline-color: $secondary-color;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $primary-color;
+    opacity: 1; /* Firefox */
+  }

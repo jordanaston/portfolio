@@ -9,7 +9,6 @@ body {
   height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: scroll;
   position: relative;
 }
 
@@ -37,18 +36,14 @@ p {
 }
 
 body {
-  display: grid;
-  grid-template-columns: 30% auto;
-  grid-template-rows: 10% auto 35%;
-  grid-template-areas: "header header" "navbar globe-sect" "navbar landing-para";
   background-image: url("/images/portfolio background mobile.png");
   border: 1px solid whitesmoke;
-  padding: 10px;
+  padding: 15px;
   margin: 20px;
 }
 
 @media screen and (min-width: 850px) {
-  body {
+  .main-container {
     background-image: url("/images/portfolio background.jpg");
   }
   .top-header {
@@ -62,7 +57,7 @@ body {
   .top-header h5 {
     font-size: 1.2em;
   }
-  body {
+  .main-container {
     display: grid;
     grid-template-columns: 30% auto;
     grid-template-rows: 10% auto 10%;
@@ -107,15 +102,19 @@ navbar-section {
 
 globe-section img {
   width: 150px;
-  margin-top: 230px;
-  margin-right: 50px;
+}
+
+.globe-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
 }
 
 .landing-text p {
   font-size: 0.9em;
   text-align: right;
-  padding-left: 70px;
-  margin-bottom: 10%;
+  padding-left: 40%;
+  margin-top: 20%;
 }
 
 .project-links ul {
@@ -137,8 +136,6 @@ globe-section img {
   color: whitesmoke;
   list-style: none;
   font-size: 0.8em;
-  margin-left: 16px;
-  margin-top: 20px;
 }
 
 .blog-links li {
@@ -149,7 +146,7 @@ globe-section img {
 .history-container h5 {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -160,13 +157,15 @@ globe-section img {
   text-align: center;
 }
 
+.history-container {
+  margin-top: 40px;
+}
+
 .network-links ul {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
   list-style: none;
   font-size: 0.8em;
-  margin-left: 16px;
-  margin-top: 20px;
 }
 
 .network-links li {
@@ -174,8 +173,11 @@ globe-section img {
   text-align: right;
 }
 
-blog-image img {
-  width: 100px;
+.blog-image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
 }
 
 .blog-para h5 {
@@ -196,14 +198,18 @@ blog-image img {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
   font-size: 1.2em;
-  text-align: center;
+  text-align: left;
 }
 
 .reach-me-section p {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
   font-size: 0.8em;
-  text-align: center;
+  text-align: left;
+}
+
+.contact-section {
+  margin-top: 80px;
 }
 
 button {

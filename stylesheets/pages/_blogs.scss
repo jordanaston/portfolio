@@ -1,5 +1,10 @@
-blog-image img {
-    width: 100px;
+.blog-image img {
+    // width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    
 }
 
 .blog-para h5 {

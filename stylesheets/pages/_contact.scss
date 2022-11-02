@@ -1,17 +1,16 @@
 .reach-me-section h6 {
     @include primary-font-style;
     font-size: 1.2em;
-    text-align: left;
 }
 
 .reach-me-section p {
     @include primary-font-style;
     font-size: 0.8em;
-    text-align: left;
 }
 
 .contact-section {
     margin-top: 80px;
+    text-align: center;
     // border: solid white 1px;
 }
 

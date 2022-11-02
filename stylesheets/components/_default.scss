@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+.main-container {
+    padding: 15px;
+    height: 100vh;
+    // border: 1px solid $primary-color;
+}
+
 
 $primary-color: whitesmoke;
 $secondary-color: #566651;
@@ -14,12 +20,13 @@ $secondary-color: #566651;
 }
 
 body {
+    background-image: url("/images/portfolio background mobile.png");
     background-size: cover;
-    height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    // overflow: scroll;
+    overflow: scroll;
     position: relative;
+    height: 100vh;
 }    
 
 .name-section {

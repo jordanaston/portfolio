@@ -4,12 +4,19 @@
   box-sizing: border-box;
 }
 
-body {
-  background-size: cover;
+.main-container {
+  padding: 15px;
   height: 100vh;
+}
+
+body {
+  background-image: url("/images/portfolio background mobile.png");
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  overflow: scroll;
   position: relative;
+  height: 100vh;
 }
 
 .name-section {
@@ -35,16 +42,12 @@ p {
   color: #566651;
 }
 
-body {
-  background-image: url("/images/portfolio background mobile.png");
-  border: 1px solid whitesmoke;
-  padding: 15px;
-  margin: 20px;
-}
-
 @media screen and (min-width: 850px) {
-  .main-container {
+  body {
     background-image: url("/images/portfolio background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 40px;
   }
   .top-header {
     display: flex;
@@ -114,7 +117,9 @@ globe-section img {
   font-size: 0.9em;
   text-align: right;
   padding-left: 40%;
+  padding-bottom: 30px;
   margin-top: 20%;
+  overflow: hidden;
 }
 
 .project-links ul {
@@ -123,7 +128,8 @@ globe-section img {
   list-style: none;
   font-size: 0.8em;
   margin-left: 16px;
-  margin-top: 110px;
+  margin-top: 160px;
+  padding-bottom: 20px;
 }
 
 .project-links li {
@@ -159,6 +165,8 @@ globe-section img {
 
 .history-container {
   margin-top: 40px;
+  overflow-y: hidden;
+  padding-bottom: 30px;
 }
 
 .network-links ul {
@@ -194,22 +202,25 @@ globe-section img {
   text-align: center;
 }
 
+.nav-section {
+  display: flex;
+}
+
 .reach-me-section h6 {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
   font-size: 1.2em;
-  text-align: left;
 }
 
 .reach-me-section p {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
   font-size: 0.8em;
-  text-align: left;
 }
 
 .contact-section {
   margin-top: 80px;
+  text-align: center;
 }
 
 button {
@@ -218,6 +229,7 @@ button {
   padding: 5px;
   color: whitesmoke;
   cursor: pointer;
+  margin-bottom: 30px;
 }
 
 .form-input-box {

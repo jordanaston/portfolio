@@ -1,14 +1,12 @@
-body {
-    background-image: url("/images/portfolio background mobile.png");
-    border: 1px solid $primary-color;
-    padding: 15px;
-    margin: 20px;
-}
+
 
 @media screen and (min-width: 850px) {
 
-    .main-container {
+    body {
         background-image: url("/images/portfolio background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 40px;
     }
     
     .top-header {

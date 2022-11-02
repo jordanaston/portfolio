@@ -1,0 +1,15 @@
+blog-image img {
+    width: 100px;
+}
+
+.blog-para h5 {
+    @include primary-font-style;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.blog-para p {
+    @include primary-font-style;
+    font-size: 0.8em;
+    text-align: center;
+}

@@ -1,0 +1,11 @@
+.reach-me-section h6 {
+    @include primary-font-style;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.reach-me-section p {
+    @include primary-font-style;
+    font-size: 0.8em;
+    text-align: center;
+}

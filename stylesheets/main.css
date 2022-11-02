@@ -172,4 +172,36 @@ globe-section img {
 .network-links li {
   margin-bottom: 10px;
   text-align: right;
+}
+
+blog-image img {
+  width: 100px;
+}
+
+.blog-para h5 {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.blog-para p {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.reach-me-section h6 {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.reach-me-section p {
+  font-family: "Open Sans", sans-serif;
+  color: whitesmoke;
+  font-size: 0.8em;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */

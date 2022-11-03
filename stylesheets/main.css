@@ -18,21 +18,15 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-  margin: 20px;
-  height: 100vh;
+  height: 90vh;
 }
 
 .main-container {
   border: 1px solid whitesmoke;
   overflow: scroll;
   padding: 15px;
-  height: 100vh;
-}
-
-.name-section {
-  font-family: "neue", Open Sans, sans-serif;
-  color: whitesmoke;
-  letter-spacing: 1.5px;
+  margin: 20px;
+  height: 90vh;
 }
 
 p {
@@ -50,13 +44,57 @@ p {
   color: whitesmoke;
 }
 
-.blog-link-decoration {
-  color: #566651;
+@media screen and (min-width: 750px) {
+  body {
+    background-image: url("/images/portfolio-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main-container {
+    margin: 40px;
+  }
+}
+.top-header {
+  display: flex;
+  justify-content: space-between;
 }
 
-@media screen and (max-width: 237px) {
+.name-section {
+  font-family: "neue", Open Sans, sans-serif;
+  color: whitesmoke;
+  letter-spacing: 1.5px;
+}
+
+.name-section h3 {
+  font-family: "neue", Open Sans, sans-serif;
+  color: whitesmoke;
+  letter-spacing: 1.5px;
+  font-size: 1.5em;
+}
+
+.name-section h5 {
+  font-family: "neue", Open Sans, sans-serif;
+  color: whitesmoke;
+  letter-spacing: 1.5px;
+  font-size: 0.85em;
+}
+
+@media screen and (max-width: 270px) {
   .top-header p {
     display: none;
+  }
+}
+@media screen and (min-width: 750px) {
+  .top-header {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .top-header h3 {
+    font-size: 1.8em;
+  }
+  .top-header h5 {
+    font-size: 1.2em;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -70,38 +108,14 @@ p {
     font-size: 1.4em;
   }
 }
-@media screen and (min-width: 850px) {
-  body {
-    background-image: url("/images/portfolio-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 40px;
-  }
-  .top-header {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: left;
-  }
-  .top-header h3 {
-    font-size: 1.8em;
-  }
-  .top-header h5 {
-    font-size: 1.2em;
-  }
-}
-.top-header {
-  display: flex;
-  justify-content: space-between;
-}
-
 .nav-bar ul {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 1.5px;
   list-style: square;
-  font-size: 0.8em;
+  font-size: 0.9em;
   margin-left: 16px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .nav-bar li {
@@ -152,8 +166,8 @@ globe-section img {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 1.5px;
+  font-size: 0.9em;
   list-style: none;
-  font-size: 0.8em;
   margin-left: 16px;
   margin-top: 160px;
   padding-bottom: 20px;
@@ -180,6 +194,10 @@ globe-section img {
 .blog-links li {
   margin-bottom: 10px;
   text-align: right;
+}
+
+.blog-link-decoration {
+  color: #566651;
 }
 
 @media screen and (min-width: 1000px) {

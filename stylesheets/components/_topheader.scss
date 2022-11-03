@@ -4,4 +4,57 @@
     justify-content: space-between;
 }
 
+.name-section {
+    @include primary-font-style;
+}
+
+.name-section h3 {
+    @include primary-font-style;
+    font-size: 1.5em;
+}
+
+.name-section h5 {
+    @include primary-font-style;
+    font-size: 0.85em;
+}
+
+// hide </> logo when screen gets really small
+@media screen and (max-width: 270px) {
+
+    .top-header p {
+        display: none;
+    }
+}
+
+// tablet view header adjustment 
+@media screen and (min-width: 750px) {
+    
+    .top-header {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .top-header h3 {
+        font-size: 1.8em;
+    }
+    .top-header h5 {
+        font-size: 1.2em;
+    }
+}
+
+// desktop view header adjustment 
+@media screen and (min-width: 1000px) {
+
+    .top-header p {
+        font-size: 1.3em;
+    }
+    
+    .top-header .name-section h3 {
+        font-size: 2em;
+    }
+    .top-header .name-section h5 {
+        font-size: 1.4em;
+    }
+}
 

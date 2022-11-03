@@ -9,6 +9,10 @@
     text-align: right;
 }
 
+.blog-link-decoration {
+    color: $secondary-color;
+}
+
 @media screen and (min-width: 1000px) {
 
     .blog-links ul {

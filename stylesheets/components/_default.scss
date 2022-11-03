@@ -29,19 +29,15 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     position: relative;
-    margin: 20px;
-    height: 100vh;
+    height: 90vh;
 }
   
 .main-container {
     border: 1px solid $primary-color;
     overflow: scroll;
     padding: 15px;
-    height: 100vh;
-}
-
-.name-section {
-    @include primary-font-style;
+    margin: 20px;
+    height: 90vh;
 }
 
 p {
@@ -57,27 +53,16 @@ p {
     color: $primary-color;
 }
 
-.blog-link-decoration {
-    color: $secondary-color;
-}
+@media screen and (min-width: 750px) {
 
-@media screen and (max-width: 237px) {
-
-    .top-header p {
-        display: none;
+    body {
+        background-image: url("/images/portfolio-background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        // margin: 40px;
     }
-}
 
-@media screen and (min-width: 1000px) {
-
-    .top-header p {
-        font-size: 1.3em;
-    }
-    
-    .top-header .name-section h3 {
-        font-size: 2em;
-    }
-    .top-header .name-section h5 {
-        font-size: 1.4em;
+    .main-container {
+        margin: 40px;
     }
 }

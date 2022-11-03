@@ -4,13 +4,19 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    src: url(/fonts/NeueMontreal-Light.otf);
+    font-family: neue;
+}
+
 
 $primary-color: whitesmoke;
 $secondary-color: #566651;
 
 @mixin primary-font-style {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'neue', Open Sans, sans-serif;
     color: whitesmoke;
+    letter-spacing: 1.5px;
 }
 
 ::-webkit-scrollbar {

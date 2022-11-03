@@ -1,10 +1,8 @@
 .blog-image img {
-    // width: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 35%;
-    
+    width: 60px;
 }
 
 .blog-para h5 {
@@ -17,8 +15,19 @@
     @include primary-font-style;
     font-size: 0.8em;
     text-align: center;
+    padding: 15px;
 }
 
-.nav-section {
-    display: flex;
+@media screen and (min-width: 1000px) {
+
+    .blog-para p {
+        font-size: 1em;
+    }
+
+    .blog-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+    }
 }

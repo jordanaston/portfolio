@@ -2,10 +2,17 @@
     @include primary-font-style;
     list-style: none;
     font-size: 0.8em;
-    // border: solid white 1px;
 }
 
 .network-links li {
     margin-bottom: 10px;
     text-align: right;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .network-links ul {
+        font-size: 1.1em;
+    }
+    
 }

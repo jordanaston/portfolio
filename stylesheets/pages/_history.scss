@@ -8,10 +8,23 @@
     @include primary-font-style;
     font-size: 0.8em;
     text-align: center;
+    padding: 15px;
 }
 
 .history-container {
     margin-top: 40px;
     overflow-y: hidden;
     padding-bottom: 30px;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .history-container h5 {
+        font-size: 1.3em;
+    }
+    
+    .history-container p {
+        font-size: 1em;
+        text-align: center;
+    }
 }

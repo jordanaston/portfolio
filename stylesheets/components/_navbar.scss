@@ -1,17 +1,21 @@
-navbar-section {
-    grid-area: navbar;
-}
-
 .nav-bar ul {
     @include primary-font-style;
     list-style: square;
     font-size: 0.8em;
     margin-left: 16px;
     margin-top: 20px;
-    // border: solid white 1px;
 }
 
 .nav-bar li {
     margin-bottom: 10px;
 }
 
+@media screen and (min-width: 1000px) {
+
+    .nav-bar ul {
+        font-size: 1.1em;
+        margin-left: 16px;
+        margin-top: 20px;
+    }
+    
+}

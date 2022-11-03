@@ -14,3 +14,14 @@
     // border: solid white 1px;
 }
 
+@media screen and (min-width: 1000px) {
+
+    .reach-me-section h6 {
+        font-size: 1.4em;
+    }
+   
+    .reach-me-section p {
+        @include primary-font-style;
+        font-size: 1em;
+    }
+}

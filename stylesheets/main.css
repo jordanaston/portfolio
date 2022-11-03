@@ -4,14 +4,18 @@
   box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+  width: 0px;
+}
+
 body {
-  background-image: url("/images/portfolio background mobile.png");
+  background-image: url("/images/portfolio-background-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow: scroll;
   position: relative;
   margin: 20px;
+  height: 100vh;
 }
 
 .main-container {
@@ -44,9 +48,25 @@ p {
   color: #566651;
 }
 
+@media screen and (max-width: 237px) {
+  .top-header p {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .top-header p {
+    font-size: 1.3em;
+  }
+  .top-header .name-section h3 {
+    font-size: 2em;
+  }
+  .top-header .name-section h5 {
+    font-size: 1.4em;
+  }
+}
 @media screen and (min-width: 850px) {
   body {
-    background-image: url("/images/portfolio background.jpg");
+    background-image: url("/images/portfolio-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 40px;
@@ -62,28 +82,10 @@ p {
   .top-header h5 {
     font-size: 1.2em;
   }
-  .nav-bar ul {
-    font-family: "Open Sans", sans-serif;
-    color: whitesmoke;
-    list-style: square;
-    font-size: 0.8em;
-    display: flex;
-    justify-content: space-around;
-    padding-top: 40px;
-    text-align: right;
-  }
 }
-header {
-  grid-area: header;
-}
-
 .top-header {
   display: flex;
   justify-content: space-between;
-}
-
-navbar-section {
-  grid-area: navbar;
 }
 
 .nav-bar ul {
@@ -99,8 +101,16 @@ navbar-section {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 1000px) {
+  .nav-bar ul {
+    font-size: 1.1em;
+    margin-left: 16px;
+    margin-top: 20px;
+  }
+}
 globe-section img {
   width: 150px;
+  opacity: 0.4;
 }
 
 .globe-container {
@@ -109,15 +119,28 @@ globe-section img {
   padding-top: 20%;
 }
 
+@media screen and (min-width: 850px) {
+  globe-section img {
+    width: 30%;
+  }
+  .globe-container {
+    padding-top: 5%;
+  }
+}
 .landing-text p {
   font-size: 0.9em;
   text-align: right;
   padding-left: 40%;
   padding-bottom: 30px;
   margin-top: 20%;
-  overflow: hidden;
 }
 
+@media screen and (min-width: 850px) {
+  .landing-text p {
+    font-size: 1em;
+    text-align: left;
+  }
+}
 .project-links ul {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
@@ -133,6 +156,11 @@ globe-section img {
   text-align: right;
 }
 
+@media screen and (min-width: 1000px) {
+  .project-links ul {
+    font-size: 1.1em;
+  }
+}
 .blog-links ul {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
@@ -145,6 +173,11 @@ globe-section img {
   text-align: right;
 }
 
+@media screen and (min-width: 1000px) {
+  .blog-links ul {
+    font-size: 1.1em;
+  }
+}
 .history-container h5 {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
@@ -157,6 +190,7 @@ globe-section img {
   color: whitesmoke;
   font-size: 0.8em;
   text-align: center;
+  padding: 15px;
 }
 
 .history-container {
@@ -165,6 +199,15 @@ globe-section img {
   padding-bottom: 30px;
 }
 
+@media screen and (min-width: 1000px) {
+  .history-container h5 {
+    font-size: 1.3em;
+  }
+  .history-container p {
+    font-size: 1em;
+    text-align: center;
+  }
+}
 .network-links ul {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
@@ -177,11 +220,16 @@ globe-section img {
   text-align: right;
 }
 
+@media screen and (min-width: 1000px) {
+  .network-links ul {
+    font-size: 1.1em;
+  }
+}
 .blog-image img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 35%;
+  width: 60px;
 }
 
 .blog-para h5 {
@@ -196,12 +244,20 @@ globe-section img {
   color: whitesmoke;
   font-size: 0.8em;
   text-align: center;
+  padding: 15px;
 }
 
-.nav-section {
-  display: flex;
+@media screen and (min-width: 1000px) {
+  .blog-para p {
+    font-size: 1em;
+  }
+  .blog-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+  }
 }
-
 .reach-me-section h6 {
   font-family: "Open Sans", sans-serif;
   color: whitesmoke;
@@ -219,6 +275,16 @@ globe-section img {
   text-align: center;
 }
 
+@media screen and (min-width: 1000px) {
+  .reach-me-section h6 {
+    font-size: 1.4em;
+  }
+  .reach-me-section p {
+    font-family: "Open Sans", sans-serif;
+    color: whitesmoke;
+    font-size: 1em;
+  }
+}
 button {
   background: transparent;
   border: solid whitesmoke 1px;

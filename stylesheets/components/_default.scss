@@ -13,14 +13,18 @@ $secondary-color: #566651;
     color: whitesmoke;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+  }
+
 body {
-    background-image: url("/images/portfolio background mobile.png");
+    background-image: url("/images/portfolio-background-mobile.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    overflow: scroll;
     position: relative;
     margin: 20px;
+    height: 100vh;
 }
   
 .main-container {
@@ -51,4 +55,23 @@ p {
     color: $secondary-color;
 }
 
+@media screen and (max-width: 237px) {
 
+    .top-header p {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    .top-header p {
+        font-size: 1.3em;
+    }
+    
+    .top-header .name-section h3 {
+        font-size: 2em;
+    }
+    .top-header .name-section h5 {
+        font-size: 1.4em;
+    }
+}

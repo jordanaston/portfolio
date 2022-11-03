@@ -1,11 +1,23 @@
 globe-section img {
     width: 150px;
+    opacity: 0.4;
 }
 
 .globe-container {
     display: flex;
     justify-content: center;
     padding-top: 20%;
+}
+
+@media screen and (min-width: 850px) {
+
+    globe-section img {
+        width: 30%;
+    }
+
+    .globe-container {
+        padding-top: 5%;
+    }
 }
 
 

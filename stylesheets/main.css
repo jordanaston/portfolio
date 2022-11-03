@@ -19,7 +19,7 @@ body {
 }
 
 .main-container {
-  border: 3px solid whitesmoke;
+  border: 1px solid whitesmoke;
   overflow: scroll;
   padding: 15px;
   height: 100vh;

@@ -1,0 +1,14 @@
+.footer-nav ul {
+    list-style: square;
+    @include primary-font-style;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+

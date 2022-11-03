@@ -1,6 +1,6 @@
 globe-section img {
     width: 150px;
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 .globe-container {
@@ -9,10 +9,10 @@ globe-section img {
     padding-top: 20%;
 }
 
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 750px) {
 
     globe-section img {
-        width: 30%;
+        width: 20%;
     }
 
     .globe-container {

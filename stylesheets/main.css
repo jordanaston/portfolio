@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-.main-container {
-  padding: 15px;
-  height: 100vh;
-}
-
 body {
   background-image: url("/images/portfolio background mobile.png");
   background-size: cover;
@@ -16,6 +11,13 @@ body {
   background-attachment: fixed;
   overflow: scroll;
   position: relative;
+  margin: 20px;
+}
+
+.main-container {
+  border: 3px solid whitesmoke;
+  overflow: scroll;
+  padding: 15px;
   height: 100vh;
 }
 
@@ -59,12 +61,6 @@ p {
   }
   .top-header h5 {
     font-size: 1.2em;
-  }
-  .main-container {
-    display: grid;
-    grid-template-columns: 30% auto;
-    grid-template-rows: 10% auto 10%;
-    grid-template-areas: "header header" "landing-para globe-sect" "landing-para navbar";
   }
   .nav-bar ul {
     font-family: "Open Sans", sans-serif;

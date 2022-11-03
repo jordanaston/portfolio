@@ -7,6 +7,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         margin: 40px;
+        // border: 1px solid $primary-color;
     }
     
     .top-header {
@@ -22,15 +23,6 @@
         font-size: 1.2em;
     }
 
-    .main-container {
-        display: grid;
-        grid-template-columns: 30% auto ;
-        grid-template-rows: 10% auto 10% ;
-        grid-template-areas: 
-            "header header"
-            "landing-para globe-sect"
-            "landing-para navbar";
-    }
 
     .nav-bar ul {
         @include primary-font-style;

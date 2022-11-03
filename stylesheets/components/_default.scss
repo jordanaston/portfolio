@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-.main-container {
-    padding: 15px;
-    height: 100vh;
-    // border: 1px solid $primary-color;
-}
-
 
 $primary-color: whitesmoke;
 $secondary-color: #566651;
@@ -26,8 +20,15 @@ body {
     background-attachment: fixed;
     overflow: scroll;
     position: relative;
+    margin: 20px;
+}
+  
+.main-container {
+    border: 3px solid $primary-color;
+    overflow: scroll;
+    padding: 15px;
     height: 100vh;
-}    
+}
 
 .name-section {
     @include primary-font-style;

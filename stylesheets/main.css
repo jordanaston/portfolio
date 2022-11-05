@@ -63,15 +63,6 @@ p {
   .main-content {
     max-height: 100vh;
   }
-  navbar-section {
-    display: none;
-  }
-  .landing-text {
-    display: none;
-  }
-  globe-section {
-    display: none;
-  }
 }
 .top-header {
   display: flex;
@@ -144,8 +135,6 @@ p {
 @media screen and (min-width: 1000px) {
   .nav-bar ul {
     font-size: 1.1em;
-    margin-left: 16px;
-    margin-top: 20px;
   }
 }
 globe-section img {
@@ -351,19 +340,19 @@ button {
   outline-color: #566651;
 }
 
-::-moz-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::-moz-placeholder {
   color: whitesmoke;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 
-:-ms-input-placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+:-ms-input-placeholder {
   color: whitesmoke;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
   color: whitesmoke;
-  opacity: 1; /* Firefox */
+  opacity: 1;
 }
 
 .footer-nav ul {

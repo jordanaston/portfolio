@@ -19,7 +19,7 @@ button {
     outline-color: $secondary-color;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder { 
     color: $primary-color;
-    opacity: 1; /* Firefox */
+    opacity: 1; 
 }

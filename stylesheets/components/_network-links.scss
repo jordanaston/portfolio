@@ -9,6 +9,30 @@
     text-align: right;
 }
 
+@media screen and (min-width: 750px) {
+
+    .network-links {
+        margin-top: 40px;
+    }
+
+    .network-links ul {
+       display: flex;
+       justify-content: center;
+       
+    }
+
+    .network-links li {
+        margin-bottom: 10px;
+        text-align: left;
+        opacity: 0.8;
+        display: flex;
+        justify-content: center;
+        width: 100px;
+    }
+    
+}
+
+
 @media screen and (min-width: 1000px) {
 
     .network-links ul {

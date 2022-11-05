@@ -16,7 +16,7 @@ $secondary-color: #566651;
 @mixin primary-font-style {
     font-family: 'neue', Open Sans, sans-serif;
     color: whitesmoke;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 ::-webkit-scrollbar {
@@ -53,9 +53,18 @@ p {
     color: $primary-color;
 }
 
+
 @media screen and (max-width: 750px) {
 
-footer {
+    footer {
+    display: none;
+}
+
+.hide-from-mobile {
+    display: none;
+}
+
+hr {
     display: none;
 }
 
@@ -75,10 +84,69 @@ footer {
         height: 90vh;
     }
 
+    .name-section-desktop {
+        color: $primary-color;
+        @include primary-font-style;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 140px;
+    }
+    
+    .name-section-desktop h3 {
+        font-size: 3em;
+        opacity: 0.4;
+    }
+    
+    .name-section-desktop h5 {
+        font-size: 1.5em;
+        opacity: 0.4;
+    }
+
     .main-content {
         max-height: 100vh;
 
     }
 
+    .nav-bar {
+        display: flex;
+    }
+
+    globe-section {
+        display: none;
+    }
+
+    // landing-text-section {
+    //     display: none;
+    // }
+
+    .name-section {
+        display: none;
+    }
+
+    .seperator {
+        width: 520px; 
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.6;
+    }
+
 }
 
+@media screen and (min-width: 1000px) {
+    .name-section-desktop h3 {
+        font-size: 4em;
+    }
+
+    .name-section-desktop h5 {
+        font-size: 2em;
+        opacity: 0.4;
+    }
+
+    .seperator {
+        width: 600px; 
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.6;
+    }
+}

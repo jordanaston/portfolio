@@ -13,6 +13,20 @@
     text-align: center;
 }
 
+@media screen and (min-width: 750px) {
+
+    .reach-me-section h6 {
+        font-size: 1.2em;
+        opacity: 0.6;
+    }
+   
+    .reach-me-section p {
+        @include primary-font-style;
+        font-size: 0.8em;
+        opacity: 0.6;
+    }
+}
+
 @media screen and (min-width: 1000px) {
 
     .reach-me-section h6 {

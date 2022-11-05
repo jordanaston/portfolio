@@ -32,7 +32,7 @@ body {
 p {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 .underline {
@@ -48,6 +48,12 @@ p {
   footer {
     display: none;
   }
+  .hide-from-mobile {
+    display: none;
+  }
+  hr {
+    display: none;
+  }
 }
 @media screen and (min-width: 750px) {
   body {
@@ -60,8 +66,56 @@ p {
     margin: 40px;
     height: 90vh;
   }
+  .name-section-desktop {
+    color: whitesmoke;
+    font-family: "neue", Open Sans, sans-serif;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 140px;
+  }
+  .name-section-desktop h3 {
+    font-size: 3em;
+    opacity: 0.4;
+  }
+  .name-section-desktop h5 {
+    font-size: 1.5em;
+    opacity: 0.4;
+  }
   .main-content {
     max-height: 100vh;
+  }
+  .nav-bar {
+    display: flex;
+  }
+  globe-section {
+    display: none;
+  }
+  .name-section {
+    display: none;
+  }
+  .seperator {
+    width: 520px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .name-section-desktop h3 {
+    font-size: 4em;
+  }
+  .name-section-desktop h5 {
+    font-size: 2em;
+    opacity: 0.4;
+  }
+  .seperator {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.6;
   }
 }
 .top-header {
@@ -72,20 +126,20 @@ p {
 .name-section {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
 }
 
 .name-section h3 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-size: 1.5em;
 }
 
 .name-section h5 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-size: 0.85em;
 }
 
@@ -99,6 +153,7 @@ p {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+    opacity: 0.6;
   }
   .top-header h3 {
     font-size: 1.8em;
@@ -121,7 +176,7 @@ p {
 .nav-bar ul {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   list-style: square;
   font-size: 0.9em;
   margin-left: 16px;
@@ -132,6 +187,20 @@ p {
   margin-bottom: 10px;
 }
 
+@media screen and (min-width: 750px) {
+  navbar-section {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-bar ul {
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    list-style: square;
+    opacity: 0.6;
+    padding-right: 15px;
+  }
+}
 @media screen and (min-width: 1000px) {
   .nav-bar ul {
     font-size: 1.1em;
@@ -150,10 +219,18 @@ globe-section img {
 
 @media screen and (min-width: 750px) {
   globe-section img {
-    width: 20%;
+    width: 200px;
   }
   .globe-container {
-    padding-top: 5%;
+    margin-top: 20%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  globe-section img {
+    width: 260px;
+  }
+  .globe-container {
+    padding-top: 0;
   }
 }
 .landing-text p {
@@ -163,14 +240,36 @@ globe-section img {
   margin-top: 20%;
 }
 
+@media screen and (min-width: 750px) {
+  .landing-text p {
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-top: 40px;
+    font-style: italic;
+    opacity: 0.6;
+    font-size: 1em;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .landing-text p {
+    text-align: left;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 40px;
+    font-style: italic;
+    opacity: 0.6;
+    font-size: 1.2em;
+  }
+}
 .project-links ul {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-size: 0.9em;
   list-style: none;
   margin-left: 16px;
-  margin-top: 160px;
+  margin-top: 40%;
 }
 
 .project-links li {
@@ -178,15 +277,31 @@ globe-section img {
   text-align: right;
 }
 
+@media screen and (min-width: 750px) {
+  .project-links ul {
+    font-size: 0.9em;
+    list-style: none;
+    margin-left: 16px;
+    margin-top: 40px;
+    opacity: 0.8;
+  }
+  .project-links li {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+}
 @media screen and (min-width: 1000px) {
   .project-links ul {
     font-size: 1.1em;
+  }
+  .project-links ul {
+    opacity: 0.6;
   }
 }
 .blog-links ul {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   list-style: none;
   font-size: 0.8em;
 }
@@ -200,6 +315,28 @@ globe-section img {
   color: #566651;
 }
 
+@media screen and (min-width: 750px) {
+  .blog-links {
+    margin-top: 50px;
+  }
+  .blog-links ul {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+  }
+  .blog-links li {
+    margin-bottom: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    opacity: 0.6;
+    width: 100px;
+  }
+  .blog-link-decoration {
+    color: whitesmoke;
+    opacity: none;
+  }
+}
 @media screen and (min-width: 1000px) {
   .blog-links ul {
     font-size: 1.1em;
@@ -208,7 +345,7 @@ globe-section img {
 .history-container h5 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-size: 1em;
   text-align: center;
 }
@@ -216,7 +353,7 @@ globe-section img {
 .history-container p {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-size: 0.8em;
   text-align: center;
   padding: 15px;
@@ -227,19 +364,33 @@ globe-section img {
   overflow-y: hidden;
 }
 
+@media screen and (min-width: 750px) {
+  .history-container h5 {
+    font-size: 1.1em;
+    opacity: 0.6;
+    margin-top: 40px;
+  }
+  .history-container p {
+    font-size: 0.8em;
+    text-align: left;
+    opacity: 0.6;
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
 @media screen and (min-width: 1000px) {
   .history-container h5 {
     font-size: 1.3em;
   }
   .history-container p {
     font-size: 1em;
-    text-align: center;
+    text-align: left;
   }
 }
 .network-links ul {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   list-style: none;
   font-size: 0.8em;
 }
@@ -249,6 +400,23 @@ globe-section img {
   text-align: right;
 }
 
+@media screen and (min-width: 750px) {
+  .network-links {
+    margin-top: 40px;
+  }
+  .network-links ul {
+    display: flex;
+    justify-content: center;
+  }
+  .network-links li {
+    margin-bottom: 10px;
+    text-align: left;
+    opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+  }
+}
 @media screen and (min-width: 1000px) {
   .network-links ul {
     font-size: 1.1em;
@@ -264,7 +432,7 @@ globe-section img {
 .blog-para h5 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-size: 1.2em;
   text-align: center;
 }
@@ -272,12 +440,32 @@ globe-section img {
 .blog-para p {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-size: 0.8em;
   text-align: center;
   padding: 15px;
 }
 
+@media screen and (min-width: 750px) {
+  .blog-para h5 {
+    font-size: 1em;
+    opacity: 0.6;
+  }
+  .blog-para p {
+    font-size: 0.8em;
+    opacity: 0.6;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+  }
+  .blog-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    opacity: 0.6;
+  }
+}
 @media screen and (min-width: 1000px) {
   .blog-para p {
     font-size: 1em;
@@ -286,20 +474,20 @@ globe-section img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80px;
+    width: 120px;
   }
 }
 .reach-me-section h6 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-size: 1.1em;
 }
 
 .reach-me-section p {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
   font-size: 0.8em;
 }
 
@@ -308,6 +496,19 @@ globe-section img {
   text-align: center;
 }
 
+@media screen and (min-width: 750px) {
+  .reach-me-section h6 {
+    font-size: 1.2em;
+    opacity: 0.6;
+  }
+  .reach-me-section p {
+    font-family: "neue", Open Sans, sans-serif;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    opacity: 0.6;
+  }
+}
 @media screen and (min-width: 1000px) {
   .reach-me-section h6 {
     font-size: 1.4em;
@@ -315,7 +516,7 @@ globe-section img {
   .reach-me-section p {
     font-family: "neue", Open Sans, sans-serif;
     color: whitesmoke;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     font-size: 1em;
   }
 }
@@ -342,24 +543,35 @@ button {
 
 ::-moz-placeholder {
   color: whitesmoke;
-  opacity: 1;
+  opacity: 0.6;
 }
 
 :-ms-input-placeholder {
   color: whitesmoke;
-  opacity: 1;
+  opacity: 0.6;
 }
 
 ::placeholder {
   color: whitesmoke;
-  opacity: 1;
+  opacity: 0.6;
 }
 
+@media screen and (min-width: 750px) {
+  .input-section {
+    opacity: 0.8;
+  }
+  .form-input-box {
+    opacity: 0.8;
+  }
+  button {
+    opacity: 0.6;
+  }
+}
 .footer-nav ul {
-  list-style: square;
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
+  list-style: square;
   display: flex;
   justify-content: space-around;
   width: 500px;
@@ -367,6 +579,7 @@ button {
 
 .footer-nav {
   display: flex;
-  justify-content: space-around;
-  position: fixed;
+  justify-content: right;
+  position: -webkit-sticky;
+  position: sticky;
 }/*# sourceMappingURL=main.css.map */

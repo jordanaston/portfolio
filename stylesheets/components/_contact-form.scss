@@ -21,5 +21,22 @@ button {
 
 ::placeholder { 
     color: $primary-color;
-    opacity: 1; 
+    opacity: 0.6; 
+}
+
+@media screen and (min-width: 750px) {
+
+    .input-section {
+        opacity: 0.8;
+    }
+
+
+    .form-input-box {
+        opacity: 0.8;
+    }
+
+    button {
+        opacity: 0.6;
+    }
+    
 }

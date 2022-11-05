@@ -18,6 +18,30 @@
     padding: 15px;
 }
 
+@media screen and (min-width: 750px) {
+
+    .blog-para h5 {
+        font-size: 1em;
+        opacity: 0.6;
+    }
+
+    .blog-para p {
+        font-size: 0.8em;
+        opacity: 0.6;
+        padding-left: 15%;
+        padding-right: 15%;
+        text-align: left;
+    }
+
+    .blog-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+        opacity: 0.6;
+    }
+}
+
 @media screen and (min-width: 1000px) {
 
     .blog-para p {
@@ -28,6 +52,6 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80px;
+        width: 120px;
     }
 }

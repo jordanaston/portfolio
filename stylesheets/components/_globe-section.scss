@@ -12,11 +12,22 @@ globe-section img {
 @media screen and (min-width: 750px) {
 
     globe-section img {
-        width: 20%;
+        width: 200px;
     }
 
     .globe-container {
-        padding-top: 5%;
+        margin-top: 20%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+
+    globe-section img {
+        width: 260px;
+    }
+
+    .globe-container {
+        padding-top: 0;
     }
 }
 

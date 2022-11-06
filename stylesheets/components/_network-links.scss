@@ -20,7 +20,6 @@
        justify-content: center;
        list-style: square;
        font-size: 1em;
-       
     }
 
     .network-links li {
@@ -31,9 +30,7 @@
         justify-content: center;
         width: 45px;
     }
-    
 }
-
 
 @media screen and (min-width: 1000px) {
 
@@ -44,5 +41,4 @@
     .network-links li {
         width: 55px;
     }
-    
 }

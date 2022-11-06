@@ -54,21 +54,19 @@ p {
     color: $primary-color;
 }
 
-
 @media screen and (max-width: 750px) {
 
     footer {
-    display: none;
-}
+        display: none;
+    }
 
-.hide-from-mobile {
-    display: none;
-}
+    .hide-from-mobile {
+        display: none;
+    }
 
-hr {
-    display: none;
-}
-
+    hr {
+        display: none;
+    }
 }
 
 @media screen and (min-width: 750px) {
@@ -109,17 +107,9 @@ hr {
 
     }
 
-    .nav-bar {
-        display: flex;
-    }
-
     globe-section {
         display: none;
     }
-
-    // landing-text-section {
-    //     display: none;
-    // }
 
     .name-section {
         display: none;
@@ -132,10 +122,10 @@ hr {
         margin-right: auto;
         opacity: 0.4;
     }
-
 }
 
 @media screen and (min-width: 1000px) {
+    
     .name-section-desktop h3 {
         font-size: 4em;
     }

@@ -89,9 +89,6 @@ p {
   .main-content {
     max-height: 100vh;
   }
-  .nav-bar {
-    display: flex;
-  }
   globe-section {
     display: none;
   }
@@ -597,21 +594,4 @@ button {
   .btn {
     opacity: 0.2;
   }
-}
-.footer-nav ul {
-  font-family: "neue", Open Sans, sans-serif;
-  color: whitesmoke;
-  letter-spacing: 2px;
-  opacity: 0.8;
-  list-style: square;
-  display: flex;
-  justify-content: space-around;
-  width: 500px;
-}
-
-.footer-nav {
-  display: flex;
-  justify-content: right;
-  position: -webkit-sticky;
-  position: sticky;
 }/*# sourceMappingURL=main.css.map */

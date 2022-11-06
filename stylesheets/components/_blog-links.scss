@@ -1,7 +1,7 @@
 .blog-links ul {
     @include primary-font-style;
     list-style: none;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 .blog-links li {
@@ -10,13 +10,13 @@
 }
 
 .blog-link-decoration {
-    color: $secondary-color;
+    color: $link-color;
 }
 
 @media screen and (min-width: 750px) {
 
     .blog-links {
-        margin-top: 50px;
+        margin-top: 30px;
         
     }
 
@@ -24,6 +24,7 @@
         margin-bottom: 80px;
         display: flex;
         justify-content: center;
+        font-size: 1em;
         
     }
 
@@ -34,12 +35,11 @@
         display: flex;
         justify-content: center;
         opacity: 0.6;
-        width: 100px;
+        width: 45px;
     }
 
     .blog-link-decoration {
-        color: $primary-color;
-        opacity: none;
+        color: $link-color;
     }
     
 }
@@ -48,6 +48,10 @@
 @media screen and (min-width: 1000px) {
 
     .blog-links ul {
-        font-size: 1.1em;
+        font-size: 1.2em;
+    }
+
+    .blog-links li {
+        width: 55px;
     }
 }

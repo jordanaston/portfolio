@@ -3,6 +3,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 60px;
+    margin-top: 50px;
+    opacity: 0.6;
 }
 
 .blog-para h5 {
@@ -21,7 +23,7 @@
 @media screen and (min-width: 750px) {
 
     .blog-para h5 {
-        font-size: 1em;
+        font-size: 1.4em;
         opacity: 0.6;
     }
 
@@ -30,7 +32,7 @@
         opacity: 0.6;
         padding-left: 15%;
         padding-right: 15%;
-        text-align: left;
+        text-align: justify;
     }
 
     .blog-image img {
@@ -53,5 +55,6 @@
         margin-left: auto;
         margin-right: auto;
         width: 120px;
+        opacity: 0.6;
     }
 }

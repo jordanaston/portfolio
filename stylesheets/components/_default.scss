@@ -9,14 +9,15 @@
     font-family: neue;
 }
 
-
 $primary-color: whitesmoke;
 $secondary-color: #566651;
+$link-color: #C79278;
 
 @mixin primary-font-style {
     font-family: 'neue', Open Sans, sans-serif;
     color: whitesmoke;
     letter-spacing: 2px;
+    opacity: 0.8;
 }
 
 ::-webkit-scrollbar {
@@ -45,7 +46,7 @@ p {
 }
 
 .underline {
-    text-decoration: underline;
+    color: $link-color;
 }
 
 .link-decoration {
@@ -90,7 +91,7 @@ hr {
         display: flex;
         justify-content: center;
         text-align: center;
-        margin-top: 140px;
+        margin-top: 100px;
     }
     
     .name-section-desktop h3 {
@@ -126,9 +127,10 @@ hr {
 
     .seperator {
         width: 520px; 
+        size: 0.2px;
         margin-left: auto;
         margin-right: auto;
-        opacity: 0.6;
+        opacity: 0.4;
     }
 
 }
@@ -147,6 +149,6 @@ hr {
         width: 600px; 
         margin-left: auto;
         margin-right: auto;
-        opacity: 0.6;
+        opacity: 0.4;
     }
 }

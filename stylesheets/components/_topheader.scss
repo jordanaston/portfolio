@@ -10,16 +10,16 @@
 
 .name-section h3 {
     @include primary-font-style;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 .name-section h5 {
     @include primary-font-style;
-    font-size: 0.85em;
+    font-size: 1em;
 }
 
 // hide </> logo when screen gets really small
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 289px) {
 
     .top-header p {
         display: none;
@@ -42,6 +42,7 @@
     .top-header h5 {
         font-size: 1.2em;
     }
+
 }
 
 // desktop view header adjustment 

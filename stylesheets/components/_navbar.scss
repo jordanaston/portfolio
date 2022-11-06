@@ -1,7 +1,7 @@
 .nav-bar ul {
     @include primary-font-style;
     list-style: square;
-    font-size: 0.9em;
+    font-size: 1em;
     margin-left: 16px;
     margin-top: 40px;
 }
@@ -20,10 +20,11 @@
     .nav-bar ul {
         display: flex;
         justify-content: space-between;
-        width: 450px;
-        list-style: square;
-        opacity: 0.6;
+        width: 400px;
+        list-style: none;
+        opacity: 0.5;
         padding-right: 15px;
+        font-size: 1em;
     }
 
     
@@ -32,7 +33,8 @@
 @media screen and (min-width: 1000px) {
 
     .nav-bar ul {
-        font-size: 1.1em;
+        font-size: 1.2em;
+        width: 470px;
     }
     
 }

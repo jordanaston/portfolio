@@ -33,10 +33,11 @@ p {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
 }
 
 .underline {
-  text-decoration: underline;
+  color: #C79278;
 }
 
 .link-decoration {
@@ -71,10 +72,11 @@ p {
     font-family: "neue", Open Sans, sans-serif;
     color: whitesmoke;
     letter-spacing: 2px;
+    opacity: 0.8;
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: 140px;
+    margin-top: 100px;
   }
   .name-section-desktop h3 {
     font-size: 3em;
@@ -98,9 +100,10 @@ p {
   }
   .seperator {
     width: 520px;
+    size: 0.2px;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.6;
+    opacity: 0.4;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -115,7 +118,7 @@ p {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.6;
+    opacity: 0.4;
   }
 }
 .top-header {
@@ -127,23 +130,26 @@ p {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
 }
 
 .name-section h3 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
-  font-size: 1.5em;
+  opacity: 0.8;
+  font-size: 1.7em;
 }
 
 .name-section h5 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
-  font-size: 0.85em;
+  opacity: 0.8;
+  font-size: 1em;
 }
 
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 289px) {
   .top-header p {
     display: none;
   }
@@ -177,8 +183,9 @@ p {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   list-style: square;
-  font-size: 0.9em;
+  font-size: 1em;
   margin-left: 16px;
   margin-top: 40px;
 }
@@ -195,15 +202,17 @@ p {
   .nav-bar ul {
     display: flex;
     justify-content: space-between;
-    width: 450px;
-    list-style: square;
-    opacity: 0.6;
+    width: 400px;
+    list-style: none;
+    opacity: 0.5;
     padding-right: 15px;
+    font-size: 1em;
   }
 }
 @media screen and (min-width: 1000px) {
   .nav-bar ul {
-    font-size: 1.1em;
+    font-size: 1.2em;
+    width: 470px;
   }
 }
 globe-section img {
@@ -242,22 +251,20 @@ globe-section img {
 
 @media screen and (min-width: 750px) {
   .landing-text p {
-    text-align: left;
+    text-align: justify;
     padding-left: 20%;
     padding-right: 20%;
     margin-top: 40px;
-    font-style: italic;
     opacity: 0.6;
     font-size: 1em;
   }
 }
 @media screen and (min-width: 1000px) {
   .landing-text p {
-    text-align: left;
+    text-align: justify;
     padding-left: 30%;
     padding-right: 30%;
     margin-top: 40px;
-    font-style: italic;
     opacity: 0.6;
     font-size: 1.2em;
   }
@@ -266,7 +273,8 @@ globe-section img {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
-  font-size: 0.9em;
+  opacity: 0.8;
+  font-size: 1em;
   list-style: none;
   margin-left: 16px;
   margin-top: 40%;
@@ -282,8 +290,8 @@ globe-section img {
     font-size: 0.9em;
     list-style: none;
     margin-left: 16px;
-    margin-top: 40px;
-    opacity: 0.8;
+    margin-top: 30px;
+    opacity: 0.6;
   }
   .project-links li {
     margin-bottom: 15px;
@@ -302,8 +310,9 @@ globe-section img {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   list-style: none;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .blog-links li {
@@ -312,17 +321,18 @@ globe-section img {
 }
 
 .blog-link-decoration {
-  color: #566651;
+  color: #C79278;
 }
 
 @media screen and (min-width: 750px) {
   .blog-links {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   .blog-links ul {
     margin-bottom: 80px;
     display: flex;
     justify-content: center;
+    font-size: 1em;
   }
   .blog-links li {
     margin-bottom: 10px;
@@ -330,22 +340,25 @@ globe-section img {
     display: flex;
     justify-content: center;
     opacity: 0.6;
-    width: 100px;
+    width: 45px;
   }
   .blog-link-decoration {
-    color: whitesmoke;
-    opacity: none;
+    color: #C79278;
   }
 }
 @media screen and (min-width: 1000px) {
   .blog-links ul {
-    font-size: 1.1em;
+    font-size: 1.2em;
+  }
+  .blog-links li {
+    width: 55px;
   }
 }
 .history-container h5 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   font-size: 1em;
   text-align: center;
 }
@@ -354,6 +367,7 @@ globe-section img {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   font-size: 0.8em;
   text-align: center;
   padding: 15px;
@@ -368,11 +382,11 @@ globe-section img {
   .history-container h5 {
     font-size: 1.1em;
     opacity: 0.6;
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .history-container p {
     font-size: 0.8em;
-    text-align: left;
+    text-align: justify;
     opacity: 0.6;
     padding-left: 20%;
     padding-right: 20%;
@@ -384,15 +398,16 @@ globe-section img {
   }
   .history-container p {
     font-size: 1em;
-    text-align: left;
+    text-align: justify;
   }
 }
 .network-links ul {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   list-style: none;
-  font-size: 0.8em;
+  font-size: 1em;
 }
 
 .network-links li {
@@ -402,24 +417,29 @@ globe-section img {
 
 @media screen and (min-width: 750px) {
   .network-links {
-    margin-top: 40px;
+    margin-top: 30px;
   }
   .network-links ul {
     display: flex;
     justify-content: center;
+    list-style: square;
+    font-size: 1em;
   }
   .network-links li {
     margin-bottom: 10px;
     text-align: left;
-    opacity: 0.8;
+    opacity: 0.6;
     display: flex;
     justify-content: center;
-    width: 100px;
+    width: 45px;
   }
 }
 @media screen and (min-width: 1000px) {
   .network-links ul {
-    font-size: 1.1em;
+    font-size: 1.2em;
+  }
+  .network-links li {
+    width: 55px;
   }
 }
 .blog-image img {
@@ -427,12 +447,15 @@ globe-section img {
   margin-left: auto;
   margin-right: auto;
   width: 60px;
+  margin-top: 50px;
+  opacity: 0.6;
 }
 
 .blog-para h5 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   font-size: 1.2em;
   text-align: center;
 }
@@ -441,6 +464,7 @@ globe-section img {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   font-size: 0.8em;
   text-align: center;
   padding: 15px;
@@ -448,7 +472,7 @@ globe-section img {
 
 @media screen and (min-width: 750px) {
   .blog-para h5 {
-    font-size: 1em;
+    font-size: 1.4em;
     opacity: 0.6;
   }
   .blog-para p {
@@ -456,7 +480,7 @@ globe-section img {
     opacity: 0.6;
     padding-left: 15%;
     padding-right: 15%;
-    text-align: left;
+    text-align: justify;
   }
   .blog-image img {
     display: block;
@@ -475,12 +499,14 @@ globe-section img {
     margin-left: auto;
     margin-right: auto;
     width: 120px;
+    opacity: 0.6;
   }
 }
 .reach-me-section h6 {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   font-size: 1.1em;
 }
 
@@ -488,6 +514,7 @@ globe-section img {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   font-size: 0.8em;
 }
 
@@ -505,6 +532,7 @@ globe-section img {
     font-family: "neue", Open Sans, sans-serif;
     color: whitesmoke;
     letter-spacing: 2px;
+    opacity: 0.8;
     font-size: 0.8em;
     opacity: 0.6;
   }
@@ -512,12 +540,15 @@ globe-section img {
 @media screen and (min-width: 1000px) {
   .reach-me-section h6 {
     font-size: 1.4em;
+    opacity: 0.4;
   }
   .reach-me-section p {
     font-family: "neue", Open Sans, sans-serif;
     color: whitesmoke;
     letter-spacing: 2px;
+    opacity: 0.8;
     font-size: 1em;
+    opacity: 0.6;
   }
 }
 button {
@@ -563,14 +594,15 @@ button {
   .form-input-box {
     opacity: 0.8;
   }
-  button {
-    opacity: 0.6;
+  .btn {
+    opacity: 0.2;
   }
 }
 .footer-nav ul {
   font-family: "neue", Open Sans, sans-serif;
   color: whitesmoke;
   letter-spacing: 2px;
+  opacity: 0.8;
   list-style: square;
   display: flex;
   justify-content: space-around;

@@ -46,9 +46,6 @@ p {
 }
 
 @media screen and (max-width: 750px) {
-  footer {
-    display: none;
-  }
   .hide-from-mobile {
     display: none;
   }
@@ -72,7 +69,7 @@ p {
     font-family: "neue", Open Sans, sans-serif;
     color: whitesmoke;
     letter-spacing: 2px;
-    opacity: 0.8;
+    opacity: 0.6;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -80,11 +77,9 @@ p {
   }
   .name-section-desktop h3 {
     font-size: 3em;
-    opacity: 0.4;
   }
   .name-section-desktop h5 {
     font-size: 1.5em;
-    opacity: 0.4;
   }
   .main-content {
     max-height: 100vh;
@@ -109,13 +104,11 @@ p {
   }
   .name-section-desktop h5 {
     font-size: 2em;
-    opacity: 0.4;
   }
   .seperator {
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    opacity: 0.4;
   }
 }
 .top-header {
@@ -156,7 +149,6 @@ p {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    opacity: 0.6;
   }
   .top-header h3 {
     font-size: 1.8em;
@@ -201,7 +193,6 @@ p {
     justify-content: space-between;
     width: 400px;
     list-style: none;
-    opacity: 0.5;
     padding-right: 15px;
     font-size: 1em;
   }
@@ -252,7 +243,6 @@ globe-section img {
     padding-left: 20%;
     padding-right: 20%;
     margin-top: 40px;
-    opacity: 0.6;
     font-size: 1em;
   }
 }
@@ -262,7 +252,6 @@ globe-section img {
     padding-left: 30%;
     padding-right: 30%;
     margin-top: 40px;
-    opacity: 0.6;
     font-size: 1.2em;
   }
 }
@@ -288,7 +277,6 @@ globe-section img {
     list-style: none;
     margin-left: 16px;
     margin-top: 30px;
-    opacity: 0.6;
   }
   .project-links li {
     margin-bottom: 15px;
@@ -298,9 +286,6 @@ globe-section img {
 @media screen and (min-width: 1000px) {
   .project-links ul {
     font-size: 1.1em;
-  }
-  .project-links ul {
-    opacity: 0.6;
   }
 }
 .blog-links ul {
@@ -336,7 +321,6 @@ globe-section img {
     text-align: center;
     display: flex;
     justify-content: center;
-    opacity: 0.6;
     width: 45px;
   }
   .blog-link-decoration {
@@ -372,19 +356,16 @@ globe-section img {
 
 .history-container {
   margin-top: 40px;
-  overflow-y: hidden;
 }
 
 @media screen and (min-width: 750px) {
   .history-container h5 {
     font-size: 1.1em;
-    opacity: 0.6;
     margin-top: 30px;
   }
   .history-container p {
     font-size: 0.8em;
     text-align: justify;
-    opacity: 0.6;
     padding-left: 20%;
     padding-right: 20%;
   }
@@ -425,7 +406,6 @@ globe-section img {
   .network-links li {
     margin-bottom: 10px;
     text-align: left;
-    opacity: 0.6;
     display: flex;
     justify-content: center;
     width: 45px;
@@ -470,11 +450,9 @@ globe-section img {
 @media screen and (min-width: 750px) {
   .blog-para h5 {
     font-size: 1.4em;
-    opacity: 0.6;
   }
   .blog-para p {
     font-size: 0.8em;
-    opacity: 0.6;
     padding-left: 15%;
     padding-right: 15%;
     text-align: justify;
@@ -484,7 +462,6 @@ globe-section img {
     margin-left: auto;
     margin-right: auto;
     width: 80px;
-    opacity: 0.6;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -496,7 +473,6 @@ globe-section img {
     margin-left: auto;
     margin-right: auto;
     width: 120px;
-    opacity: 0.6;
   }
 }
 .reach-me-section h6 {
@@ -523,7 +499,7 @@ globe-section img {
 @media screen and (min-width: 750px) {
   .reach-me-section h6 {
     font-size: 1.2em;
-    opacity: 0.6;
+    text-align: left;
   }
   .reach-me-section p {
     font-family: "neue", Open Sans, sans-serif;
@@ -531,13 +507,18 @@ globe-section img {
     letter-spacing: 2px;
     opacity: 0.8;
     font-size: 0.8em;
-    opacity: 0.6;
+    text-align: left;
+  }
+  .contact-section {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 @media screen and (min-width: 1000px) {
   .reach-me-section h6 {
     font-size: 1.4em;
-    opacity: 0.4;
   }
   .reach-me-section p {
     font-family: "neue", Open Sans, sans-serif;
@@ -545,7 +526,12 @@ globe-section img {
     letter-spacing: 2px;
     opacity: 0.8;
     font-size: 1em;
-    opacity: 0.6;
+  }
+  .contact-section {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 button {
@@ -571,27 +557,21 @@ button {
 
 ::-moz-placeholder {
   color: whitesmoke;
-  opacity: 0.6;
 }
 
 :-ms-input-placeholder {
   color: whitesmoke;
-  opacity: 0.6;
 }
 
 ::placeholder {
   color: whitesmoke;
-  opacity: 0.6;
 }
 
 @media screen and (min-width: 750px) {
-  .input-section {
-    opacity: 0.8;
-  }
   .form-input-box {
-    opacity: 0.8;
+    display: flex;
   }
-  .btn {
-    opacity: 0.2;
+  button {
+    display: flex;
   }
 }/*# sourceMappingURL=main.css.map */

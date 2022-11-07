@@ -56,10 +56,6 @@ p {
 
 @media screen and (max-width: 750px) {
 
-    footer {
-        display: none;
-    }
-
     .hide-from-mobile {
         display: none;
     }
@@ -78,6 +74,13 @@ p {
         height: 90vh;
     }
 
+    @mixin primary-font-style {
+        font-family: 'neue', Open Sans, sans-serif;
+        color: whitesmoke;
+        letter-spacing: 2px;
+        opacity: 0.6;
+    }
+
     .main-container {
         margin: 40px;
         height: 90vh;
@@ -94,12 +97,12 @@ p {
     
     .name-section-desktop h3 {
         font-size: 3em;
-        opacity: 0.4;
+        // opacity: 0.4;
     }
     
     .name-section-desktop h5 {
         font-size: 1.5em;
-        opacity: 0.4;
+        // opacity: 0.4;
     }
 
     .main-content {
@@ -132,13 +135,13 @@ p {
 
     .name-section-desktop h5 {
         font-size: 2em;
-        opacity: 0.4;
+        // opacity: 0.4;
     }
 
     .seperator {
         width: 600px; 
         margin-left: auto;
         margin-right: auto;
-        opacity: 0.4;
+        // opacity: 0.4;
     }
 }

@@ -13,21 +13,18 @@
 
 .history-container {
     margin-top: 40px;
-    overflow-y: hidden;
 }
 
 @media screen and (min-width: 750px) {
 
     .history-container h5 {
         font-size: 1.1em;
-        opacity: 0.6;
         margin-top: 30px;
     }
     
     .history-container p {
         font-size: 0.8em;
         text-align: justify;
-        opacity: 0.6;
         padding-left: 20%;
         padding-right: 20%;
     }

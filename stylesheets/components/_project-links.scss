@@ -1,3 +1,6 @@
+// PROJECT LINKS COMPONENT STYLES
+
+// project-links component includes list of links to completed works
 .project-links ul {
     @include primary-font-style;
     font-size: 1em;
@@ -11,28 +14,28 @@
     text-align: right;
 }
 
+// content styled for tablet view
 @media screen and (min-width: 750px) {
+    
     .project-links ul {
         font-size: 0.9em;
-        list-style: none;
         margin-left: 16px;
         margin-top: 30px;
-        // opacity: 0.6;
     }
 
     .project-links li {
         margin-bottom: 15px;
-        text-align: center;
+        display: flex;
+        justify-content: center;
     }
+    
 }
 
+// content styled for desktop view
 @media screen and (min-width: 1000px) {
 
     .project-links ul {
         font-size: 1.1em;
     }
 
-    .project-links ul {
-        // opacity: 0.6;
-    }
 }

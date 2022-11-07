@@ -1,9 +1,13 @@
+// CONTACT FORM COMPONENT STYLES
+
+// contact-form component includes form-input-box elements and button
+
 button {
     background: transparent;
     border: solid $primary-color 1px;
-    padding: 5px;
     color: $primary-color;
     cursor: pointer;
+    padding: 5px;
     margin-bottom: 30px;
 }
 
@@ -17,27 +21,21 @@ button {
     padding: 5px;
     color: $primary-color;
     outline-color: $secondary-color;
+    opacity: 0.6;
 }
 
 ::placeholder { 
     color: $primary-color;
-    // opacity: 0.6; 
 }
 
+// content styled for tablet/desktop view
 @media screen and (min-width: 750px) {
 
-    .input-section {
-        // opacity: 0.8;
-    }
-
-
     .form-input-box {
-        // opacity: 0.8;
         display: flex;
     }
 
     button {
         display: flex;
     }
-
 }

@@ -1,3 +1,7 @@
+// BLOG LINKS COMPONENT STYLES
+
+// blog-links component includes links to individual blogs 
+
 .blog-links ul {
     @include primary-font-style;
     list-style: none;
@@ -13,6 +17,7 @@
     color: $link-color;
 }
 
+// content styled for tablet view
 @media screen and (min-width: 750px) {
 
     .blog-links {
@@ -25,22 +30,16 @@
         justify-content: center;
         font-size: 1em;
     }
-
     
     .blog-links li {
         margin-bottom: 10px;
-        text-align: center;
         display: flex;
         justify-content: center;
-        // opacity: 0.6;
         width: 45px;
-    }
-
-    .blog-link-decoration {
-        color: $link-color;
     }
 }
 
+// content styled for desktop view
 @media screen and (min-width: 1000px) {
 
     .blog-links ul {

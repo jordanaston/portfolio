@@ -36,7 +36,7 @@ p {
   opacity: 0.8;
 }
 
-.underline {
+.link-highlight {
   color: #C79278;
 }
 
@@ -80,9 +80,6 @@ p {
   }
   .name-section-desktop h5 {
     font-size: 1.5em;
-  }
-  .main-content {
-    max-height: 100vh;
   }
   globe-section {
     display: none;
@@ -184,7 +181,7 @@ p {
 }
 
 @media screen and (min-width: 750px) {
-  navbar-section {
+  .nav-bar {
     display: flex;
     justify-content: center;
   }
@@ -203,9 +200,9 @@ p {
     width: 470px;
   }
 }
-globe-section img {
+.globe-container img {
   width: 150px;
-  opacity: 0.2;
+  opacity: 0.4;
 }
 
 .globe-container {
@@ -215,7 +212,7 @@ globe-section img {
 }
 
 @media screen and (min-width: 750px) {
-  globe-section img {
+  .globe-container img {
     width: 200px;
   }
   .globe-container {
@@ -223,11 +220,8 @@ globe-section img {
   }
 }
 @media screen and (min-width: 1000px) {
-  globe-section img {
+  .globe-container img {
     width: 260px;
-  }
-  .globe-container {
-    padding-top: 0;
   }
 }
 .landing-text p {
@@ -248,10 +242,8 @@ globe-section img {
 }
 @media screen and (min-width: 1000px) {
   .landing-text p {
-    text-align: justify;
     padding-left: 30%;
     padding-right: 30%;
-    margin-top: 40px;
     font-size: 1.2em;
   }
 }
@@ -274,13 +266,13 @@ globe-section img {
 @media screen and (min-width: 750px) {
   .project-links ul {
     font-size: 0.9em;
-    list-style: none;
     margin-left: 16px;
     margin-top: 30px;
   }
   .project-links li {
     margin-bottom: 15px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -318,13 +310,9 @@ globe-section img {
   }
   .blog-links li {
     margin-bottom: 10px;
-    text-align: center;
     display: flex;
     justify-content: center;
     width: 45px;
-  }
-  .blog-link-decoration {
-    color: #C79278;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -400,7 +388,6 @@ globe-section img {
   .network-links ul {
     display: flex;
     justify-content: center;
-    list-style: square;
     font-size: 1em;
   }
   .network-links li {
@@ -458,9 +445,6 @@ globe-section img {
     text-align: justify;
   }
   .blog-image img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 80px;
   }
 }
@@ -469,9 +453,6 @@ globe-section img {
     font-size: 1em;
   }
   .blog-image img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 120px;
   }
 }
@@ -537,9 +518,9 @@ globe-section img {
 button {
   background: transparent;
   border: solid whitesmoke 1px;
-  padding: 5px;
   color: whitesmoke;
   cursor: pointer;
+  padding: 5px;
   margin-bottom: 30px;
 }
 
@@ -553,6 +534,7 @@ button {
   padding: 5px;
   color: whitesmoke;
   outline-color: #566651;
+  opacity: 0.6;
 }
 
 ::-moz-placeholder {

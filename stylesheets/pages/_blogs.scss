@@ -1,3 +1,9 @@
+// BLOG PAGE STYLES
+
+// blog-para component includes header and paragraph
+// blog-image component includes image for each blog
+
+//blog image styling
 .blog-image img {
     display: block;
     margin-left: auto;
@@ -7,12 +13,14 @@
     opacity: 0.6;
 }
 
+// blog header styling
 .blog-para h5 {
     @include primary-font-style;
     font-size: 1.2em;
     text-align: center;
 }
 
+// blog paragraph styling
 .blog-para p {
     @include primary-font-style;
     font-size: 0.8em;
@@ -20,30 +28,26 @@
     padding: 15px;
 }
 
+// content styled for tablet view
 @media screen and (min-width: 750px) {
 
     .blog-para h5 {
         font-size: 1.4em;
-        // opacity: 0.6;
     }
 
     .blog-para p {
         font-size: 0.8em;
-        // opacity: 0.6;
         padding-left: 15%;
         padding-right: 15%;
         text-align: justify;
     }
 
     .blog-image img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 80px;
-        // opacity: 0.6;
     }
 }
 
+// content styled for desktop view
 @media screen and (min-width: 1000px) {
 
     .blog-para p {
@@ -51,10 +55,6 @@
     }
 
     .blog-image img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
         width: 120px;
-        // opacity: 0.6;
     }
 }

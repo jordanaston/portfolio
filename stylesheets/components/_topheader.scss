@@ -1,3 +1,6 @@
+// TOP HEADER COMPONENT STYLES
+
+// top-header component includes name-section for mobile view, globe image for larger views and code symbol for all views
 .top-header {
     display: flex;
     justify-content: space-between;
@@ -17,7 +20,7 @@
     font-size: 1em;
 }
 
-// hide </> logo when screen gets really small
+// hide </> symbol when screen gets really small
 @media screen and (max-width: 289px) {
 
     .top-header p {
@@ -25,14 +28,13 @@
     }
 }
 
-// tablet view header adjustment 
+// content styled for tablet view
 @media screen and (min-width: 750px) {
     
     .top-header {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        // opacity: 0.6;
     }
 
     .top-header h3 {
@@ -43,7 +45,7 @@
     }
 }
 
-// desktop view header adjustment 
+// content styled for tablet view 
 @media screen and (min-width: 1000px) {
 
     .top-header p {

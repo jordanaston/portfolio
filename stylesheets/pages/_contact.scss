@@ -1,33 +1,38 @@
+// CONTACT PAGE STYLES
+
+// header styling
 .reach-me-section h6 {
     @include primary-font-style;
     font-size: 1.1em;
 }
 
+// personal details styling
 .reach-me-section p {
     @include primary-font-style;
     font-size: 0.8em;
 }
 
+// contact-section component includes personal details and form
 .contact-section {
     margin-top: 80px;
     text-align: center;
 }
 
+// content styled for tablet view
 @media screen and (min-width: 750px) {
 
     .reach-me-section h6 {
         font-size: 1.2em;
-        // opacity: 0.6;
         text-align: left;
     }
    
     .reach-me-section p {
         @include primary-font-style;
         font-size: 0.8em;
-        // opacity: 0.6;
         text-align: left;
     }
 
+    // component includes personal details and form
     .contact-section{
         display: flex;
         justify-content: space-around;
@@ -36,19 +41,19 @@
     }
 }
 
+// content styled for desktop view
 @media screen and (min-width: 1000px) {
 
     .reach-me-section h6 {
         font-size: 1.4em;
-        // opacity: 0.4;
     }
    
     .reach-me-section p {
         @include primary-font-style;
         font-size: 1em;
-        // opacity: 0.6;
     }
 
+    // component includes personal details and form
     .contact-section{
         display: flex;
         justify-content: space-around;

@@ -1,9 +1,13 @@
+// HISTORY PAGE STYLES
+
+// header styling
 .history-container h5 {
     @include primary-font-style;
     font-size: 1em;
     text-align: center;
 }
 
+// paragraph styling
 .history-container p {
     @include primary-font-style;
     font-size: 0.8em;
@@ -11,10 +15,12 @@
     padding: 15px;
 }
 
+// history container text component includes header and paragraph
 .history-container {
     margin-top: 40px;
 }
 
+// content styled for tablet view
 @media screen and (min-width: 750px) {
 
     .history-container h5 {
@@ -30,6 +36,7 @@
     }
 }
 
+// content styled for desktop view
 @media screen and (min-width: 1000px) {
 
     .history-container h5 {

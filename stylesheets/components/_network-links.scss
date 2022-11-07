@@ -1,3 +1,6 @@
+// NETWORK LINKS COMPONENT STYLES
+
+// network-links component includes list of active links to professional accounts and social media pages
 .network-links ul {
     @include primary-font-style;
     list-style: none;
@@ -9,6 +12,7 @@
     text-align: right;
 }
 
+// content styled for tablet view
 @media screen and (min-width: 750px) {
 
     .network-links {
@@ -18,20 +22,19 @@
     .network-links ul {
        display: flex;
        justify-content: center;
-       list-style: square;
        font-size: 1em;
     }
 
     .network-links li {
         margin-bottom: 10px;
         text-align: left;
-        // opacity: 0.6;
         display: flex;
         justify-content: center;
         width: 45px;
     }
 }
 
+// content styled for desktop view
 @media screen and (min-width: 1000px) {
 
     .network-links ul {

@@ -1,6 +1,9 @@
-globe-section img {
+// GLOBE SECTION COMPONENT STYLES
+
+// globe-container component includes wire globe image
+.globe-container img {
     width: 150px;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 
 .globe-container {
@@ -9,9 +12,10 @@ globe-section img {
     padding-top: 20%;
 }
 
+// content styled for tablet view
 @media screen and (min-width: 750px) {
 
-    globe-section img {
+    .globe-container img {
         width: 200px;
     }
 
@@ -20,15 +24,13 @@ globe-section img {
     }
 }
 
+// content styled for desktop view
 @media screen and (min-width: 1000px) {
 
-    globe-section img {
+    .globe-container img {
         width: 260px;
     }
 
-    .globe-container {
-        padding-top: 0;
-    }
 }
 
 

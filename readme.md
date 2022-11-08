@@ -1,6 +1,6 @@
 # T1A2 - Portfolio
 
-## *Designed and developed by Jordan Aston.* <br><br>
+## *Designed and developed by Jordan Aston.* <br>
 
 ## **Links:** <br>
 

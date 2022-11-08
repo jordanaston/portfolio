@@ -37,6 +37,10 @@
         justify-content: center;
         width: 45px;
     }
+
+    .blog-links li:hover {
+        color: $link-color;
+    }
 }
 
 // content styled for desktop view

@@ -28,6 +28,10 @@
         display: flex;
         justify-content: center;
     }
+
+    .project-links li:hover {
+        color: $link-color;
+    }
     
 }
 

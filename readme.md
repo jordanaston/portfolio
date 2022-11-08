@@ -1,8 +1,8 @@
 # T1A2 - Portfolio
 
-## *Designed and developed by Jordan Aston.* <br>
+## *Designed and developed by Jordan Aston.* 
 
-## **Links:** <br>
+## **Links:** 
 
 Website deployed with Netlify: [Click Here](https://sensational-semifreddo-81e50e.netlify.app/index.html)
 

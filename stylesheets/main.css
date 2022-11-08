@@ -78,6 +78,9 @@ p {
   .name-section-desktop h3 {
     font-size: 3em;
   }
+  .name-section-desktop h3:hover {
+    color: #C79278;
+  }
   .name-section-desktop h5 {
     font-size: 1.5em;
   }
@@ -185,6 +188,9 @@ p {
     display: flex;
     justify-content: center;
   }
+  .nav-bar li:hover {
+    color: #C79278;
+  }
   .nav-bar ul {
     display: flex;
     justify-content: space-between;
@@ -275,6 +281,9 @@ p {
     display: flex;
     justify-content: center;
   }
+  .project-links li:hover {
+    color: #C79278;
+  }
 }
 @media screen and (min-width: 1000px) {
   .project-links ul {
@@ -314,6 +323,9 @@ p {
     display: flex;
     justify-content: center;
     width: 45px;
+  }
+  .blog-links li:hover {
+    color: #C79278;
   }
 }
 @media screen and (min-width: 1000px) {
@@ -398,6 +410,9 @@ p {
     display: flex;
     justify-content: center;
     width: 45px;
+  }
+  .network-links li:hover {
+    color: #C79278;
   }
 }
 @media screen and (min-width: 1000px) {

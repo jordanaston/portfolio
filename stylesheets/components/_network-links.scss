@@ -32,6 +32,10 @@
         justify-content: center;
         width: 45px;
     }
+
+    .network-links li:hover {
+        color: $link-color;
+    }
 }
 
 // content styled for desktop view

@@ -21,6 +21,10 @@
         justify-content: center;
     }
 
+    .nav-bar li:hover {
+        color: $link-color;
+    }
+
     .nav-bar ul {
         display: flex;
         justify-content: space-between;
@@ -29,6 +33,7 @@
         padding-right: 15px;
         font-size: 1em;
     }
+
 }
 
 // content styled for desktop view

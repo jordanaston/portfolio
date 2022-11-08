@@ -115,6 +115,10 @@ p {
     .name-section-desktop h3 {
         font-size: 3em;
     }
+
+    .name-section-desktop h3:hover {
+        color: $link-color;
+    }
     
     .name-section-desktop h5 {
         font-size: 1.5em;

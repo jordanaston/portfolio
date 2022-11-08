@@ -21,31 +21,33 @@
           <!-- "name-section" for mobile view only -->
           <div class="name-section">
             <a href="../index.html" class="link-decoration">
-              <h3>jordan aston,</h3>
+              <h3>jordan_aston</h3>
               <h5>web developer.</h5> 
             </a>    
           </div> 
             <!-- wire globe image for desktop/ tablet view only, 
                  using the "hide-from-mobile" class -->
+          <figure>    
             <img src="/images/wire-globe-edit.png" alt="wire globe image" class="hide-from-mobile" width="80px" opacity="0">
+          </figure> 
             <!-- code symbol displayed at the top of all pages -->
-            <p>＜／＞</p>
+          <p>＜／＞</p>
         </div>
       </header>
       <main>
         <!-- "name-section-desktop" = the large headers for desktop/tablet view,
               using the "hide-from-mobile" class -->
-        <name-section>
+        <section>
           <div class="name-section-desktop hide-from-mobile">
             <a href="/index.html" class="link-decoration">
               <h3>jordan_aston</h3>
               <h5>web developer.</h5>
             </a>  
           </div> 
-        </name-section>   
+        </section>   
         <!-- this nav-bar is used accross the site in all views, 
              hiding the "|" from mobile view --> 
-        <navbar-section>
+        <section>
           <nav class="nav-bar">
             <ul>
               <a href="../index.html" class="link-decoration">
@@ -67,18 +69,18 @@
               </a>
             </ul>
           </nav>
-        </navbar-section>
+        </section>
           <br>
           <!-- hr line inserted for seperating the nav-bars in desktop/tablet view -->
           <hr class="seperator">
         <!-- globe image used for mobile view only -->
-        <globe-section>
+        <figure class="hide-from-desktop">
           <div class="globe-container">
             <img src="/images/wire-globe-edit.png" alt="wire globe image">
           </div>
-        </globe-section>
+        </figure>
         <!-- project links taking you to completed works for all views -->
-        <projects-section>
+        <section>
           <div class="project-links">
             <ul>
               <a href="https://stellar-daffodil-8bc1a8.netlify.app/" target="_blank" class="link-decoration">
@@ -97,8 +99,8 @@
                 <li>project_five</li>
               </a>
             </ul>
-          <div>
-        </projects-section>
+          </div>
+        </section>
       </main>
     </div>
   </body>

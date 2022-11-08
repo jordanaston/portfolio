@@ -20,6 +20,12 @@
     text-align: center;
 }
 
+.blog-para h3 {
+    @include primary-font-style;
+    font-size: 1em;
+    text-align: center;
+}
+
 // blog paragraph styling
 .blog-para p {
     @include primary-font-style;

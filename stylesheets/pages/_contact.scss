@@ -3,13 +3,13 @@
 // header styling
 .reach-me-section h6 {
     @include primary-font-style;
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 // personal details styling
 .reach-me-section p {
     @include primary-font-style;
-    font-size: 0.8em;
+    font-size: 1em;
 }
 
 // contact-section component includes personal details and form
@@ -36,8 +36,8 @@
     .contact-section{
         display: flex;
         justify-content: space-around;
-        margin-left: 15%;
-        margin-right: 15%;
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }
 
@@ -57,7 +57,7 @@
     .contact-section{
         display: flex;
         justify-content: space-around;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 27%;
+        margin-right: 27%;
     }
 }

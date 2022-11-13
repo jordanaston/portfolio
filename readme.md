@@ -19,61 +19,61 @@ This website uses media queries to create a responsive layout for mobile, tablet
 <br><br>
 
 ### *Sitemap:* <br>
-|![Sitemap](/documentation/sitemap.png)
+|![Sitemap](./documentation/sitemap.png)
 |:--:| 
 | *Sitemap showing layout of website. Created in Figma.* |
 <br>
 
 ### *Wireframes:* <br>
-|![Wireframes](/documentation/all-wireframes.png)
+|![Wireframes](./documentation/all-wireframes.png)
 |:--:| 
 | *Wireframes screenshot showing planning for each page and view. Created in Figma.* |
 <br>
 
 ### *Home Page Wireframes:* <br>
-|![Wireframes](/documentation/wireframe-home.png)
+|![Wireframes](./documentation/wireframe-home.png)
 |:--:| 
 | *Wireframes for Home page in all views. Created in Figma.* |
 <br>
 
 ### *Projects Page Wireframes:* <br>
-|![Wireframes](/documentation/wireframe-projects.png)
+|![Wireframes](./documentation/wireframe-projects.png)
 |:--:| 
 | *Wireframes for Projects page in all views. Created in Figma.* |
 <br>
 
 ### *Blog Page Wireframes:* <br>
-|![Wireframes](/documentation/wireframe-blog.png)
+|![Wireframes](./documentation/wireframe-blog.png)
 |:--:| 
 | *Wireframes for Blog page in all views. Created in Figma.* |
 <br>
 
 ### *History Page Wireframes:* <br>
-|![Wireframes](/documentation/wireframe-history.png)
+|![Wireframes](./documentation/wireframe-history.png)
 |:--:| 
 | *Wireframes for History page in all views. Created in Figma.* |
 <br>
 
 ### *Contact Page Wireframes:* <br>
-|![Wireframes](/documentation/wireframe-contact.png)
+|![Wireframes](./documentation/wireframe-contact.png)
 |:--:| 
 | *Wireframes for Contact page in all views. Created in Figma.* |
 <br>
 
 ### *Mobile view screenshot:* <br>
-|![Mobile view](/documentation/screenshot-mobile-view.png)
+|![Mobile view](./documentation/screenshot-mobile-view.png)
 |:--:| 
 | *Screenshot of deployed website in mobile view.* |
 <br>
 
 ### *Tablet view screenshot:* <br>
-|![Tablet view](/documentation/screenshot-tablet-view.png)
+|![Tablet view](./documentation/screenshot-tablet-view.png)
 |:--:| 
 | *Screenshot of deployed website in tablet view.* |
 <br>
 
 ### *Desktop view screenshot:* <br>
-|![Desktop view](/documentation/screenshot-desktop-view.png)
+|![Desktop view](./documentation/screenshot-desktop-view.png)
 |:--:| 
 | *Screenshot of deployed website in desktop view.* |
 <br>

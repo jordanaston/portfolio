@@ -30,6 +30,36 @@ This website uses media queries to create a responsive layout for mobile, tablet
 | *Wireframes screenshot showing planning for each page and view. Created in Figma.* |
 <br>
 
+### *Home Page Wireframes:* <br>
+|![Wireframes](/documentation/wireframe-home.png)
+|:--:| 
+| *Wireframes for Home page in all views. Created in Figma.* |
+<br>
+
+### *Projects Page Wireframes:* <br>
+|![Wireframes](/documentation/wireframe-projects.png)
+|:--:| 
+| *Wireframes for Projects page in all views. Created in Figma.* |
+<br>
+
+### *Blog Page Wireframes:* <br>
+|![Wireframes](/documentation/wireframe-blog.png)
+|:--:| 
+| *Wireframes for Blog page in all views. Created in Figma.* |
+<br>
+
+### *History Page Wireframes:* <br>
+|![Wireframes](/documentation/wireframe-history.png)
+|:--:| 
+| *Wireframes for History page in all views. Created in Figma.* |
+<br>
+
+### *Contact Page Wireframes:* <br>
+|![Wireframes](/documentation/wireframe-contact.png)
+|:--:| 
+| *Wireframes for Contact page in all views. Created in Figma.* |
+<br>
+
 ### *Mobile view screenshot:* <br>
 |![Mobile view](/documentation/screenshot-mobile-view.png)
 |:--:| 

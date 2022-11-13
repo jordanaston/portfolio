@@ -419,9 +419,6 @@ p {
     justify-content: center;
     width: 45px;
   }
-  .network-links li:hover {
-    color: #C79278;
-  }
 }
 @media screen and (min-width: 1000px) {
   .network-links ul {

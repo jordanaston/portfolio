@@ -4,11 +4,11 @@
 
 ## **Links:** 
 
-Website deployed with Netlify: [Click Here](https://sensational-semifreddo-81e50e.netlify.app/index.html)
+Website deployed with Netlify: [Click Here](https://jordanaston.netlify.app/index.html)
 
 GitHUB Repository: [Click Here](https://github.com/jordanaston/portfolio) 
 
-Presentation Video: [Click Here](https://www.youtube.com/) <br><br>
+Presentation Video: [Click Here](https://youtu.be/rgl91XmBRwg) <br><br>
 
 
 The purpose of building this website is to demonstrate my professional skills, work and study history and personal interests while showcasing an ability to design and develop various websites and applications. It will be used as a networking tool and give people the opportunity to inquire about work and collaborations via a submissions form. 
@@ -59,14 +59,24 @@ Deployed with Netlify.
 ## **References**: 
 <br>
 
-Wire globe image:
+Wire globe image: https://www.pngwing.com/en/free-png-nisqq
 <br><br>
-HTML image:
+HTML image: https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg
 <br><br>
-CSS image:
+CSS image: https://www.onlinewebfonts.com/icon/565439
 <br><br>
-Sass image:
+Sass image: https://commons.wikimedia.org/wiki/File:Sass_Logo_Color.svg
 <br><br>
-Javascript image:
+Javascript image: https://www.stickpng.com/img/icons-logos-emojis/iconic-brands/javascript-logo
 <br><br>
-Python image:
+Python image: https://en.wikibooks.org/wiki/File:Python-logo-notext.svg
+<br><br>
+Github icon: https://www.flaticon.com/free-icon/github-logo_25231
+<br><br>
+Linkedin icon: https://www.flaticon.com/free-icon/linkedin_174857
+<br><br>
+Twitter icon: https://www.edigitalagency.com.au/twitter/new-twitter-logo-png/
+<br><br>
+Instagram icon: https://www.flaticon.com/free-icon/instagram-logo_87390 
+<br><br>
+Resume icon: https://www.pngkey.com/maxpic/u2e6i1r5y3a9o0a9/

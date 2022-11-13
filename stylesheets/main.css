@@ -5,7 +5,7 @@
 }
 
 @font-face {
-  src: url(/fonts/NeueMontreal-Light.otf);
+  src: url(../fonts/NeueMontreal-Light.otf);
   font-family: neue;
 }
 ::-webkit-scrollbar {
@@ -13,7 +13,7 @@
 }
 
 body {
-  background-image: url("/images/portfolio-background-mobile.png");
+  background-image: url("../images/portfolio-background-mobile.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -55,7 +55,7 @@ p {
 }
 @media screen and (min-width: 750px) {
   body {
-    background-image: url("/images/portfolio-background.jpg");
+    background-image: url("../images/portfolio-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;

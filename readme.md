@@ -6,7 +6,7 @@
 
 Website deployed with Netlify: [Click Here](https://jordanaston.netlify.app/index.html)
 
-GitHUB Repository: [Click Here](https://github.com/jordanaston/portfolio) 
+GitHub Repository: [Click Here](https://github.com/jordanaston/portfolio) 
 
 Presentation Video: [Click Here](https://youtu.be/rgl91XmBRwg) <br><br>
 
